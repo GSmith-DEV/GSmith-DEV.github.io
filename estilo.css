@@ -80,6 +80,10 @@ body {
 .cabecalho nav a { color: #fff; text-decoration: none; font-weight: 600; }
 .cabecalho nav a:hover { text-decoration: underline; }
 
+.principal p {
+   text-align: justify;
+}
+
 .cartao {
   background: var(--superficie);
   border: 1px solid var(--borda);
