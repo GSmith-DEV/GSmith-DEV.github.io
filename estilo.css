@@ -94,8 +94,7 @@ body {
 .cartao + .cartao { margin-top: 24px; }
 h2 { color: var(--cor); margin-top: 0; }
 
-.projetos a {color: var(--cor);}
-
+.projeto a {color: var(--cor);}
 .projeto {
   background: var(--fundo);
   border: 1px solid var(--borda);
