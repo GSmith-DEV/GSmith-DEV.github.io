@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="jogo">
+    <h1>❌⭕ Jogo da Velha</h1>
+    <p class="vez">Vez de: <strong id="vez">X</strong></p>
+
+    <!-- 9 células. NÃO precisa mexer no HTML. -->
+    <div id="tabuleiro" class="tabuleiro">
+      <button class="celula"></button>
+      <button class="celula"></button>
+      <button class="celula"></button>
+      <button class="celula"></button>
+      <button class="celula"></button>
+      <button class="celula"></button>
+      <button class="celula"></button>
+      <button class="celula"></button>
+      <button class="celula"></button>
+    </div>
+
+    <p id="mensagem" class="mensagem"></p>
+    <button id="reiniciar" class="btn">↻ Reiniciar</button>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
